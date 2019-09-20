@@ -1,0 +1,22 @@
+{
+  "model": "triplet-charword",
+  "save_dir": "saved_dir_rank",
+  "seed": 0,
+  "batch_size": 256,
+  "count_backward": 1,
+  "epoch": 30,
+  "data_kind": 0,
+  "char_embedding_dim": 100,
+  "lstm_hidden_size": 100,
+  "lstm_num_layers": 1,
+  "attention_size": 64,
+  "attention_hops": 10,
+  "fc_size": 128,
+  "drop_out": 0.0,
+  "triplet_norm_p": 1.0,
+  "triplet_margin": 1.0,
+  "norm_e": false,
+  "penalty_ratio": null,
+  "optim": "adam",
+  "run_test": false
+}
